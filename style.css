@@ -177,6 +177,7 @@ li:hover{
 .items:hover{
     color: white;
     background-color: #FF4500;
+    transition: all 0.5s;
 }
 footer{
     background-color: #FF4500;
@@ -224,6 +225,10 @@ footer p {
     }
     .items-con{
        flex-direction: column;
+    }
+
+    ul{
+        display: none;
     }
  }
 
